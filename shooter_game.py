@@ -6,6 +6,8 @@ pg.init()
 pg.font.init()
 
 
+#hello
+
 class Base_sprite(pg.sprite.Sprite):
     def __init__(self, pic, x, y, w, h, hb_x=0, hb_y=0):
         super().__init__()
